@@ -1,0 +1,58 @@
+/*
+estilos da pagina index.html
+*/
+
+.center{
+    text-align: center;
+}
+body {
+    background-color: bisque;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.imgttr {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 26px;
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+}
+
+.descricaottr {
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
+    align-items: center;
+    margin-left: 35px;
+}
+.borda-imagem {
+  border-radius: 50%;
+
+}
+
+.menu li {
+        display: inline;
+        padding: 10px;
+        text-decoration: none;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;   
+    font-size: 18px;
+}
+
+.menu li a:hover{
+    color: gray;
+}
+
+.wh300{
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+
+}
+#rodapefinal{
+    margin-top: 30px;
+}
